@@ -1,11 +1,5 @@
 <template>
   <div>
-    <h1 class="test">测试</h1>
+    <router-view/>
   </div>
 </template>
-
-<style scoped lang="scss">
-.test {
-  color: $test-color;
-}
-</style>

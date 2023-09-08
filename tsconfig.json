@@ -14,9 +14,12 @@
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
+    "types": ["vite/client", "vite"],
 
     /* Linting */
     "strict": true,
